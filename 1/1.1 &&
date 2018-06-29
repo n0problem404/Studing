@@ -1,0 +1,8 @@
+var hadShower = true;
+var hasBackpack = false;
+hadShower && hasBackpack;
+false
+var hadShower = true;
+var hasBackpack = true;
+hadShower && hasBackpack;
+true
