@@ -1,0 +1,13 @@
+var sillyString = "heLlo THERE, hOw ARE yOu doINg ?";
+var lowerString = sillyString.toLowerCase();
+var firstCharacter = lowerString[0];
+var firstCharacterUpper = firstCharacter.toUpperCase();
+var restOfString = lowerString.slice(1);
+firstCharacterUpper + restOfString;
+"Hello there, how are you doing ?"
+var sillyString = "heLlo THERE, hOw ARE yOu doINg ?";
+sillyString[0].toUpperCase() + sillyString.slice(1).toLowerCase();
+"Hello there, how are you doing ?"
+var sillyString = "heLlo THERE, hOw ARE yOu doINg ?";
+sillyString[0].toLowerCase() + sillyString.slice(1).toUpperCase();
+"hELLO THERE, HOW ARE YOU DOING ?"
