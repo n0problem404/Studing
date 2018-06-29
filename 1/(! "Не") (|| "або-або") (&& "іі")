@@ -1,0 +1,16 @@
+var isWeekand = true;
+var needToShowerToday = !isWeekand;
+needToShowerToday;
+false
+!needToShowerToday;
+true
+
+// поєднання логічних операторів
+
+var isWeekend = false;
+var hadShower = true;
+var hasApple = false;
+var hasOrange = true;
+var shouldGoToSchool = !isWeekend && hadShower && (hasApple || hasOrange);
+shouldGoToSchool;
+true
